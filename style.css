@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* COntrole panel */
+
+.page,
+.navbar {
+	display: none;
+	display: none;
+}
+
+/* COntrole panel */
+
+/* Base Page */
+
+.ico {
+	display: flex;
+	font-family: Pacifico;
+	background-color: #f3f5f8;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Inter;
+}
+
+main {
+	height: 85vh;
+}
+
+.HrNav,
+.HrNav2 {
+	border: #f3f5f8 1px solid;
+}
+.cneter {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.HrNav {
+	width: 80%;
+}
+
+.page {
+	height: 100%;
+}
+
+button {
+	background-color: transparent;
+	border: 0;
+}
+
+/* Base Page */
+
+/* Edit Page */
+
+nav {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+nav > button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.navPart2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#Cancel,
+.back {
+	color: #525866;
+}
+
+textarea {
+	resize: none;
+	width: 99.7%;
+	border: 0;
+}
+
+input {
+	border: 0;
+}
+
+#txtContent {
+	width: 99.7%;
+	height: 88%;
+}
+
+footer {
+	height: 7%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1fr;
+	justify-items: center;
+	align-items: center;
+}
+
+#Save-Note {
+	color: #335cff;
+}
+
+.tag,
+.tag1,
+.Edit,
+.Edit1 {
+	display: flex;
+}
+
+.tag,
+.Edit {
+	width: 40%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Edit Page */
+
+/* Not Page */
+
+.not-tag {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.not-tag > p {
+	margin-right: 10px;
+	background-color: #e0e4ea;
+	border-radius: 5px;
+	padding: 0px 5px;
+}
+
+.Not-title {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 19.2px;
+	letter-spacing: -0.30000001192092896px;
+}
+
+.Not-date {
+	font-family: Inter;
+	text-align: start;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.4px;
+	letter-spacing: -0.20000000298023224px;
+}
+
+.page-def {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.page-def hr {
+	margin: 5px 0px;
+	width: 99.7%;
+}
+
+.Not {
+	margin: 15px 0px;
+}
+
+.page-def {
+	position: relative;
+	width: 99.7%;
+}
+
+.plus {
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+	background-color: #335cff;
+	box-shadow: 0px 7px 11px 0px #cacfd8b2;
+	height: 48px;
+	width: 48px;
+	border-radius: 666px;
+}
